@@ -14,9 +14,11 @@ const Form = styled(Paper)(({ theme }) => ({
 export default function SingInPage() {
   return (
     <Grid container justifyContent="center">
-      <Form>
-        <SignIn />
-      </Form>
+      <Grid item xs sx={{ maxWidth: '460px', width: '100%' }}>
+        <Form>
+          <SignIn />
+        </Form>
+      </Grid>
     </Grid>
   );
 }

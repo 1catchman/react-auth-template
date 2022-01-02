@@ -81,7 +81,7 @@ export default function HomePage() {
         <CssBaseline />
         <Box
           sx={{
-            width: '460px',
+            maxWidth: '460px',
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'center'

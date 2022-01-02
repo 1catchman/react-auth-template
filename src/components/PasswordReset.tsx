@@ -50,7 +50,7 @@ export default function SignIn() {
       <CssBaseline />
       <Box
         sx={{
-          width: '460px',
+          width: '100%',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'center'

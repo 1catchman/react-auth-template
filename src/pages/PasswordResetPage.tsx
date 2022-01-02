@@ -15,9 +15,11 @@ export default function PasswordResetPage() {
   return (
     <Container maxWidth="md" sx={{ mt: 8 }}>
       <Grid container justifyContent="center">
-        <Form>
-          <PasswordReset />
-        </Form>
+        <Grid item xs sx={{ maxWidth: '460px', width: '100%' }}>
+          <Form>
+            <PasswordReset />
+          </Form>
+        </Grid>
       </Grid>
     </Container>
   );
