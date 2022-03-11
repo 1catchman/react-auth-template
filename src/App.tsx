@@ -1,7 +1,7 @@
 import { ThemeProvider } from '@mui/material/styles';
 import { Container } from '@mui/material';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from 'react-router-dom';
@@ -21,7 +21,7 @@ import CustomAlert from './components/CustomAlert';
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename="/">
         <AuthProvider>
           <AlertProvider>
             <Navbar />
